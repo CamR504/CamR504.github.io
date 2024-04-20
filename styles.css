@@ -1,0 +1,36 @@
+.nav-container {
+    background-color: #FFDAB9; /* Light orange background */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Add padding to create space between content and container */
+    text-align: center; /* Center align content */
+}
+
+/* Style navigation menu */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px; /* Add some space between menu items */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333; /* Dark text color */
+}
+
+nav ul li a:hover {
+    color: #FF6347; /* Change text color on hover */
+}
+
+.content-container {
+    width:70%;
+    margin: 0 auto; /* Center align horizontally */
+    border-radius: 10px; /* Rounded corners */
+    border: 2px solid orange; /* Orange border */
+    padding: 5px;
+    text-align: center; /* Center align content within container */
+    margin-top: 20px; /* Add some space between the two containers */
+}
