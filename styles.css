@@ -34,3 +34,31 @@ nav ul li a:hover {
     text-align: center; /* Center align content within container */
     margin-top: 20px; /* Add some space between the two containers */
 }
+
+.content-section {
+    display: flex; /* Use flexbox for layout */
+}
+
+.image-container {
+    flex: 1; /* Take up remaining space */
+    padding: 10px; /* Add padding for spacing */
+}
+
+.text-container {
+    flex: 2; /* Take up twice as much space as image-container */
+    padding: 10px; /* Add padding for spacing */
+}
+.text-container p {
+    text-align: left;
+}
+
+.image-container img {
+    max-width: 100%; /* Ensure the image does not exceed its container */
+    border-radius: 10px; /* Add rounded corners */
+}
+
+#foot  {
+    background-color: #FFDAB9;
+    border-radius: 10px;
+    padding: 10px;
+}
