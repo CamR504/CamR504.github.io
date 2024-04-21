@@ -1,5 +1,10 @@
+body {
+    background-color: #444B4B; /* Dark background color */
+    color: #F5EFED;
+}
+
 .nav-container {
-    background-color: #FFDAB9; /* Light orange background */
+    background-color: #F46703; /* Light orange background */
     border-radius: 10px; /* Rounded corners */
     padding: 20px; /* Add padding to create space between content and container */
     text-align: center; /* Center align content */
@@ -17,12 +22,12 @@ nav ul li {
 }
 
 nav ul li a {
-    text-decoration: none;
-    color: #333; /* Dark text color */
+    color: #F5EFED; /* Dark text color */
+
 }
 
 nav ul li a:hover {
-    color: #FF6347; /* Change text color on hover */
+    text-decoration-thickness: 5px;
 }
 
 .content-container {
@@ -70,20 +75,36 @@ nav ul li a:hover {
 
 }
 .project {
-    width: 100%;
+    width: 200px;
     height:150px;
-    border: 2px;
+    border: 2px solid orange;
     border-radius: 10px;
     padding: 0px;
     margin-right: 20px;
-    border-color: #FF6347;
-    background-color: #FFDAB9;
+    border-color: #F46703;
+    background-color: #F46703;
     margin-bottom: 10px; /* Add some space between projects */
 }
 
 
 #foot  {
-    background-color: #FFDAB9;
+    background-color: #F46703;
     border-radius: 10px;
     padding: 10px;
 }
+
+footer ul
+    {
+        list-style-type: none;
+        padding: 0;
+    }
+    footer ul li {
+        display: inline;
+        margin-right: 20px; /* Add some space between menu items */
+    }
+    footer ul li a {
+        color: #F5EFED; /* Dark text color */
+    }
+    footer ul li a:hover {
+        text-decoration-thickness: 5px;
+    }
