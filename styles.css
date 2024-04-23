@@ -6,12 +6,13 @@ body {
     font-family: Verdana, sans-serif;
     font-size: 90%;
     margin-bottom: 0px;
+    margin-left: 0px;
 
     /* Main color #F46703 */
 }
 #top_page {
-    width:110vw;
-    transform:translate(-2%, -2%);
+    width:100vw;
+    transform:translate(0%, -10%);
     /*border: red solid 5px*/
 }
 #top_page img {
@@ -26,13 +27,18 @@ body {
 }
 
 #content {
-    top: 30vh;
-    left:center;
     /*border: red solid 5px;*/
-    width:97vw;
+    width:96vw;
 }
 #content ul {
     list-style-type: none;
+    /*border: red solid 5px;*/
+    align-items: center;
+}
+#content ul li {
+    margin-left: 0px;
+    padding: 0px;
+    transform: translate(-2%);
 }
 
 #about_me img {
@@ -110,9 +116,9 @@ body {
 #bottom_page {
     top:150vh;
     left: 0px;
-    width:110vw;
+    width:100vw;
     z-index: -1;
-    transform: translate(-2%);
+    transform: translate(0%,12%);
 }
 #bottom_page img {
     width: 100%;
