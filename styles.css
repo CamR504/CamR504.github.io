@@ -36,8 +36,6 @@ body {
     align-items: center;
 }
 #content ul li {
-    margin-left: 0px;
-    padding: 0px;
     transform: translate(-2%);
 }
 
@@ -62,7 +60,7 @@ body {
 }
 #about_me ul li {
     display: inline-block;
-    margin-right: 5px;
+    margin: 10px;
 }
 
 #projects {
