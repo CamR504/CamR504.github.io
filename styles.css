@@ -26,23 +26,25 @@ body {
     margin: 0%;
 }
 .grid-container {
-    margin-top: 5%;
     margin:auto;
-    width:95%;
+    width:90vw;
     display: grid;
-    grid-template-columns: repeat(auto, minmax(100px, 12vw));
-    grid-template-rows: repeat(7, 15vh);
+    grid-template-columns: repeat(auto-fit, minmax(100px, 19%));
+    grid-template-rows: repeat(auto-fit, 15vh);
     grid-auto-rows: 15vh;
+    grid-auto-columns: 20vw;
     grid-gap: 1rem;
     text-align: center;
     text-justify: center;
+    padding: 1rem;
+    border: red solid 5px;
 }
 .grid-item {
     /*border: red solid 5px;*/
 }
 .item-1 {
-    grid-row: 1/4;
-    grid-column: 1/3;
+    grid-column: span 2;
+    grid-row: span 3;
 }
 .item-1 img {
     width:100%;
@@ -51,8 +53,8 @@ body {
     border-radius: 2rem;
 }
 .item-2 {
-    grid-row: 1/4;
-    grid-column: 3/6;
+    grid-row: span 3;
+    grid-column: span 3;
     background-color: #2d3131;
     padding: 5%;
     border: #F46703 solid .25rem;
@@ -76,6 +78,10 @@ body {
     border-radius: 2rem;
 }
 .item-7 {
+    width: 80vw;
+    margin:auto;
+    text-align: center;
+    text-justify: center;
     background-color: #2d3131;
     padding: 5%;
     border: #F46703 solid .25rem;
