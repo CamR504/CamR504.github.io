@@ -37,7 +37,7 @@ body {
     text-align: center;
     text-justify: center;
     padding: 1rem;
-    border: red solid 5px;
+    /*border: red solid 5px;*/
 }
 .grid-item {
     /*border: red solid 5px;*/
@@ -60,26 +60,28 @@ body {
     border: #F46703 solid .25rem;
     border-radius: 2rem;
 }
-.item-3{
-
-    grid-column: span 5;
-    grid-row:span 1;
+#projects_h{
+    width: 80vw;
+    margin: auto;
+    margin-top:10vh;
     background-color: #2d3131;
-    padding: 5%;
     border: #F46703 solid .25rem;
     border-radius: 2rem;
+    text-align: center;
 }
 .item-4, .item-5, .item-6 {
     grid-column: span 1;
     grid-row: span 1;
+    font-size: 100%;
     background-color: #2d3131;
     padding: 5%;
     border: #F46703 solid .25rem;
     border-radius: 2rem;
 }
-.item-7 {
+#contacts {
     width: 80vw;
     margin:auto;
+    margin-top: 15vh;
     text-align: center;
     text-justify: center;
     background-color: #2d3131;
@@ -89,11 +91,11 @@ body {
     grid-column: span 5;
     grid-row: span 2;
 }
-.item-7 a {
+#contacts a {
     color: #F5EFED;
     margin: 3rem;
 }
-.item-7 a:hover {
+#contacts a:hover {
     text-decoration-thickness: 5px;
 }
 #bottom_page {
